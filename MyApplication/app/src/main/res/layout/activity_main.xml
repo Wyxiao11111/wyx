@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="fill_parent"
+        tools:layout_editor_absoluteY="fill_parent"
+        android:background="@drawable/未命名"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:text="Muxi"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="39dp"
+            android:textSize="30dp"
+            android:textColor="#ffee59"></TextView>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="Welcome"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="230dp"
+            android:textSize="25dp"
+            android:textColor="#ffee59"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="I just do not know what to say.But maybe it will be better to put more words here?!"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="269dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="463dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOG IN" />
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
