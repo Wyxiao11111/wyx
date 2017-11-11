@@ -9,13 +9,13 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="383dp"
         android:layout_height="match_parent"
-        android:background="@drawable/未命名"
+        android:background="@drawable/back"
         android:gravity="center"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="fill_parent"
         tools:layout_editor_absoluteY="fill_parent"></LinearLayout>
 
-        <TextView
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="24dp"
@@ -24,22 +24,22 @@
             tools:layout_editor_absoluteY="80dp"
             android:textSize="30dp"
             android:textColor="#ffee59"></TextView>
-        <TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:text="Welcome"
         tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="400dp"
+        tools:layout_editor_absoluteY="350dp"
             android:textSize="25dp"
             android:textColor="#ffee59"/>
-        <TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="24dp"
+        android:padding="2dp"
         android:text="I just do not know what to say.But maybe it will be better to put more words here?!"
         tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="480dp"
+        tools:layout_editor_absoluteY="400dp"
             android:textSize="20dp"
             android:textColor="#ffffff"/>
 
@@ -48,12 +48,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="600dp">
+        tools:layout_editor_absoluteY="527dp">
 
 
         <Button
-            android:layout_width="193"
-            android:layout_height="40"
+            android:layout_width="193dp"
+            android:layout_height="40dp"
             android:background="#000000"
             android:text="SIGN UP"
             android:textColor="#ffee59"
@@ -61,8 +61,8 @@
             android:gravity="center"/>
 
         <Button
-            android:layout_width="193"
-            android:layout_height="40"
+            android:layout_width="193dp"
+            android:layout_height="40dp"
             android:background="#ffee59"
             android:text="LOG IN"
             android:textColor="#000000"
